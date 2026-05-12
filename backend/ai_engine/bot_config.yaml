@@ -1,0 +1,12 @@
+# AI Bot Configuration
+# All values can be overridden via environment variables
+
+bots:
+  testcase_generator:
+    provider: deepseek
+    model: deepseek-chat
+    api_key: ${DEEPSEEK_API_KEY}
+    base_url: https://api.deepseek.com/v1
+    temperature: 0.15
+    max_tokens: 8192
+    request_timeout: 120

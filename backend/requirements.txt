@@ -1,0 +1,27 @@
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+python-multipart==0.0.18
+pydantic==2.10.4
+pydantic-settings==2.7.1
+httpx>=0.24,<0.28
+aiofiles==24.1.0
+
+# Document parsing
+PyMuPDF==1.25.1
+python-docx==1.1.2
+mistletoe==1.4.0
+
+# Export
+openpyxl==3.1.5
+xmind==1.2.0
+
+# Supabase
+supabase==2.7.4
+
+# AI / LLM
+openai==1.58.1
+
+# Utilities
+python-dateutil==2.9.0
+pyyaml>=6.0
+json_repair>=0.30
